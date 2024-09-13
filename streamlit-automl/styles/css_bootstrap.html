@@ -1,0 +1,241 @@
+<style type="text/css">
+
+
+/* FLOATING MENU BUTTON */
+div[height="101"] {
+    position: absolute !important;
+    background-color: transparent !important;
+    right:-10rem;
+    top:2rem;
+    z-index:100;
+    width:110px;
+
+}
+
+div[height="101"] div button  {
+    position: fixed !important;
+    border-radius: 38px;
+    height:75px;
+    width:75px;
+    box-shadow: 0px 2px 8px #11567F;
+}
+
+
+/* STATIC ADD PROJECT BUTTON */
+div[height="51"] {
+    position: absolute !important;
+    background-color: transparent !important;
+    right:1rem;
+    top:1rem;
+    width:200px;
+    z-index:100;
+}
+div[height="135"] {
+    margin-bottom: 2rem;
+    background-color:#f7f7f7;
+    overflow-x: hidden;
+    color:#1e252f;
+    border-radius: 1rem;
+    padding-left: 2rem;
+}
+div[height="135"] div button {
+    background-color: #1a6ce7;
+    color:white;
+    &:hover{
+        background-color: #085bd7;
+        color:white;
+    }
+}
+
+div[height="49"] {
+    position: absolute !important;
+    background-color: transparent !important;
+    right:-3rem;
+    top:1rem;
+    width:100px;
+    z-index:100;
+}
+div[height="49"] div button {
+    background-color: #858585;
+    color:white;
+    &:hover{
+        background-color: #085bd7;
+        color:white;
+    }
+}
+
+
+
+header[data-testid="stHeader"] {
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+
+
+div [data-testid="stAppViewBlockContainer"] {
+    background-color: white !important;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px #11567F;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 75px;
+    padding-bottom: 2rem;
+    max-width: 80%;
+}
+
+
+div [data-testid="baseButton-secondary"]:has(p[content="Select a Dataset"]) {
+    background-color: black;
+}
+
+div [data-testid="stExpander"] {
+    border: none;
+}
+/* div [data-testid="stExpander"] summary {
+    pointer-events: none;
+}
+div [data-testid="stExpander"] summary svg  {
+    visibility: hidden;
+} */
+
+
+div [data-testid="stSidebar"] {
+    max-width: 300px;
+    background-image: linear-gradient(180deg, #ffffff, 65%, #8e8e8e);
+    box-shadow: 0px 5px 10px #11567F;
+}
+
+div[data-testid="stSidebarContent"] :first-of-type button[data-testid="baseButton-header"] {
+    visibility: hidden;
+}
+
+div[data-testid="collapsedControl"] {
+    visibility: hidden;
+}
+
+div[height="110"] {
+    background-color: #11567F;
+}
+
+div[height="110"] div {
+    color: white;
+}
+
+div[height="110"] div :first-of-type div[data-testid="stImage"] {
+
+    max-width: 45px;
+    max-height: 45px;
+    position: fixed;
+    overflow: visible;
+
+}
+
+div[height="110"] div :first-of-type img {
+    border-radius: 50%;
+    height: 55px;
+    object-fit: cover;
+    transform: translate(110px, -10px);
+}
+
+div[height="400"] {
+    background-color: #11567F;
+    align-content: center;
+}
+
+
+div[height="400"] div :first-of-type div[data-testid="stImage"] {
+    max-width: 45px;
+    max-height: 45px;
+    position: fixed;
+    overflow: visible;
+}
+
+div[height="400"] div :first-of-type img {
+    border-radius: 50%;
+    height: 55px;
+    object-fit: cover;
+    transform: translate(420px, 0px);
+}
+
+button[title="View fullscreen"] {
+    display: none;
+}
+
+div[role="dialog"] {
+    width: 85%;
+    min-height: 85% !important;
+}
+
+
+
+div [height="505"] div [data-testid="stExpander"] summary {
+    pointer-events:all;
+}
+div [height="505"] div [data-testid="stExpander"] summary svg  {
+    visibility: visible;
+}
+.contact_card{
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border-radius: 1em;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.property_container{
+    background-color: #ffffff;
+    border: none;
+    padding-left: 2px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 20px;
+}
+.property_pill {
+    background-color: #1a6ce7;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0px 14px 14px 0px;
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+
+}
+.property_pill_current {
+    background-color: #c7593d;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0px 14px 14px 0px;
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+
+}
+.property_title {
+    background-color: #626363;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 14px 0px 0px 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+</style>
