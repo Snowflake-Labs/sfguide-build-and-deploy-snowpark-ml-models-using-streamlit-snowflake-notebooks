@@ -1,0 +1,10 @@
+spec:
+  containers:
+    - name: streamlit
+      image: accountname.snowflakecomputing.com/tutorial_db/data_schema/tutorial_repository/automl_4
+      env:
+        SNOWFLAKE_WAREHOUSE: tutorial_warehouse
+  endpoints:
+    - name: streamlit
+      port: 8501
+      public: true
