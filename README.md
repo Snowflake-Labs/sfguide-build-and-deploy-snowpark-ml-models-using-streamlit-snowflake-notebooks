@@ -9,4 +9,4 @@ ML Sidekick, a no-code app built using Streamlit in Snowflake, designed for buil
   - Exploration/comparison different versions of registered models or different models
 
 ## Step-By-Step Guide
-For prerequisites, environment setup, step-by-step guide and instructions, please refer to the [QuickStart Guide](ADD LINK TO QS ONCE PUBLIC).
+For prerequisites, environment setup, step-by-step guide and instructions, please refer to the [QuickStart Guide](https://quickstarts.snowflake.com/guide/build-and-deploy-snowpark-ml-models-using-streamlit-snowflake-notebooks/index.html?index=..%2F..index#0)
