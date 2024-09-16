@@ -1,4 +1,4 @@
-#  ML Sidekick application - Build and deploy Snowpark ML models using Streamlit in Snowflake
+#  Build and deploy Snowpark ML models using Streamlit in Snowflake
 
 ## Overview
 ML Sidekick, a no-code app built using Streamlit in Snowflake, designed for building and deploying machine learning models in Snowflake. This application aids both seasoned data scientists and business users with no coding experience by simplifying the machine learning process and making it accessible to a broader audience. This applications provides features for:
