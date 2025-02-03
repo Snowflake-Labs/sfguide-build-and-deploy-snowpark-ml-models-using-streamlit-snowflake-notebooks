@@ -583,6 +583,7 @@ class AutoMLModeling:
                                         try:
                                             with register_columns[1]:
                                                 with st.spinner("Saving..."):
+                                                    query_tag_comment = '{"origin": "sf_sit", "name": "ml_sidekick", "version": {"major":1, "minor":0}, "attributes":{"component":"model"}}'
                                                     reg.log_model(
                                                         model=st.session_state[
                                                             "pipeline_object"
@@ -591,8 +592,9 @@ class AutoMLModeling:
                                                         metrics=st.session_state[
                                                             "pipeline_metrics"
                                                         ],
-                                                        comment = '{"origin": "sf_sit", "name": "ml_sidekick", "version": {"major":1, "minor":0}, "attributes":{"component":"model"}}'
+                                                        comment = query_tag_comment
                                                     )
+                                                    reg.get_model(tgt_model_name).comment = query_tag_comment
                                                     st.toast("Model Registered")
 
                                         except Exception as e:
